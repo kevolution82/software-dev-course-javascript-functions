@@ -95,8 +95,8 @@ function printProduct(numA, numB) {
 }
 
 function printNames(arr) {
-   console.log("Names in the list: ");
-for {let i=0; i < arr.length; i++) {
+   console.log("Names in the list: ")};
+for {let i=0; i < (arr.length; i++) {
 console.log(arr[i]);
 }
 }
