@@ -78,3 +78,15 @@ function greet(name) {
 
 const names = ["Alice", "Bob", "Charlie"];
 names.forEach(greet);
+let num1 = 5, num2 = 10;
+let sum = num1 + num2;
+console.log("The sum of 5 and 10 is " + sum);
+
+let product = num1 * num2;
+console.log("The product of 5 and 10 is " + product);
+
+let names = ["Alice", "Bob", "Charlie"];
+console.log("Names in the list:");
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
