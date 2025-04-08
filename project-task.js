@@ -72,3 +72,9 @@ for (let i = 0; i < names.length; i++) {
 */
 
 // ✅ Your refactored code goes below this line!
+function greet(name) {
+   console.log(`Hello, ${name}!`);
+}
+
+const names = ["Alice", "Bob", "Charlie"];
+names.forEach(greet);
