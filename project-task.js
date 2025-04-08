@@ -76,17 +76,27 @@ function greet(name) {
    console.log(`Hello, ${name}!`);
 }
 
-const names = ["Alice", "Bob", "Charlie"];
-names.forEach(greet);
-let num1 = 5, num2 = 10;
-let sum = num1 + num2;
-console.log("The sum of 5 and 10 is " + sum);
+function add(a, b) {
+   // let sum = a + b;
+   // return sum;
+   return a + b;
+}
 
-let product = num1 * num2;
-console.log("The product of 5 and 10 is " + product);
+function printSum(numA, numB) {
+   console.log('The sum of ${numA] and ${numB} is ${add(numA, numB)}.');
+}
 
-let names = ["Alice", "Bob", "Charlie"];
-console.log("Names in the list:");
-for (let i = 0; i < names.length; i++) {
-    console.log(names[i]);
+function multiply(a, b) {
+   return a * b;
+}
+
+function printProduct(numA, numB) {
+   console.log('The product of ${numA} and ${numB} is ${multiply(numA, numB)}.');
+}
+
+function printNames(arr) {
+   console.log("Names in the list: ");
+for {let i=0; i < arr.length; i++) {
+console.log(arr[i]);
+}
 }
